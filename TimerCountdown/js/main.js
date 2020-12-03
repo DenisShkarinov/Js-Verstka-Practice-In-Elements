@@ -16,10 +16,10 @@ let days = Math.round((dateMs-dateNowMs)/(1000*60*60*24)),
    let secEl = document.getElementById('seconds');
    
    let timer = setInterval(function() {
-      secEl.innerHTML = seconds;
-      minEl.innerHTML = minutes;
-      hoursEl.innerHTML = hours;
-      daysEl.innerHTML = days;
+      secEl.innerHTML = `<p>${seconds} seconds</p>`;
+      minEl.innerHTML = `<p>${minutes} minutes</p>`;
+      hoursEl.innerHTML = `<p>${hours} hours</p>`;
+      daysEl.innerHTML = `<p>${days} days</p>`;
       --seconds;
       if (seconds == 0) {
          seconds = 60;
