@@ -21,3 +21,8 @@
   font-size: 30px;
   font-weight: 700;
 }
+
+#clock p {
+  font-size: 15px;
+  text-transform: uppercase;
+}
