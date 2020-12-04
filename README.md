@@ -5,3 +5,4 @@
 3. [Expanding Cards](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/Expanding%20cards/)
 4. [Progress Steps](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/ProgressSteps/)
 5. [Timer Countdown](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/TimerCountdown/)
+6. [Simple Burger-Menu](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/NotAmazingBurgerMenu/)
