@@ -1,0 +1,112 @@
+*, :before, :after {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+body {
+   background-color: #F2ECE4;
+
+   a {
+      color: #8C5042;
+      font-size: 30px;
+      text-decoration: none;
+      text-transform: uppercase;
+   }
+}
+
+nav {
+   .desktop-template {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 25px;
+   }
+   .mobile-template {
+      opacity: 0;
+      visibility: hidden;
+   }
+   .desktop-template, .mobile-template {
+      position: fixed;
+      width: 100vw;
+      background-color: #D9afa0;
+   }
+}
+.sidebar {
+   position: fixed;
+   top: 70px;
+   right: 0%;
+   width: 0%;
+   background: #BFBFBF;
+   transition: width .5s ease-in;
+
+   p {
+      padding: 15px 20px;
+   }
+}
+.sidebar.active {
+   width: 25%;
+   transition: width .5s ease-in;
+}
+
+
+@media only screen and (max-width: 800px) {
+   nav {
+      .desktop-template {
+         visibility: hidden;
+         opacity: 0;
+         z-index: -10000;
+      }
+      .mobile-template {
+         opacity: 1;
+         visibility: visible;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 25px;
+   
+         .burger {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border: 2px solid #BFBFBF;
+            border-radius: 5px;
+            background-color: #8C5042;
+   
+            transition: 0.3s;
+   
+            span, span:before, span:after {
+               content: "";
+               position: absolute;
+               left: 0; right: 0; top: 0; bottom: 0;
+               margin: auto;
+               width: 20px;
+               height: 2px;
+               background-color: #BFBFBF;
+            }
+            span:before {
+               transition: 0.3s;
+               transform: translateY(5px);
+            }
+            span:after {
+               transition: 0.3s;
+               transform: translateY(-5px);
+            }
+         }
+         .active {
+            transform: rotate(45deg);
+            transition: 0.3s;
+            span {
+               height: 0;
+            }
+            span:before {
+               transition: .3s;
+               transform: rotate(45deg);
+            }
+            span:after {
+               transition: 0.3s;
+               transform: rotate(-45deg);
+            }
+         }
+      }
+   }
+}
