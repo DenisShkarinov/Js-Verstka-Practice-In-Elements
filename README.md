@@ -7,4 +7,4 @@
 5. [Timer Countdown](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/TimerCountdown/)
 6. [Simple Burger-Menu](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/NotAmazingBurgerMenu/)
 7. [Scroll Animation](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/Scroll%20Animation/)
-8. [Splitted Landing Page](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/Split%20LP/)
+8. [Splitted Landing Page](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/SplitLP/)
