@@ -6,3 +6,4 @@
 4. [Progress Steps](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/ProgressSteps/)
 5. [Timer Countdown](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/TimerCountdown/)
 6. [Simple Burger-Menu](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/NotAmazingBurgerMenu/)
+7. [Scroll Animation](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/ScrollAnimation/)
