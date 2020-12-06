@@ -10,3 +10,4 @@
 8. [Splitted Landing Page](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/SplitLP/)
 9. [Form Wavy](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/FormWave/)
 10. [Sound Board](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/SoundBoard/)
+10. [Dad Jokes](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/DadJokes/)

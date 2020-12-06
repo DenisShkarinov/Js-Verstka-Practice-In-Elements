@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #686de0;
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.container h3 {
+  opacity: 0.5;
+  letter-spacing: 2px;
+}
+
+.container #joke {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+.container .btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #9f68e0;
+  color: #ffffff;
+  font-size: 16px;
+  border: 0;
+  border-radius: 10px;
+  padding: 14px 40px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.container .btn:focus, .container .btn:active {
+  border: 0;
+  outline: 0;
+}
