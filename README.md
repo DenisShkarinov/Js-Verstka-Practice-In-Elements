@@ -8,3 +8,4 @@
 6. [Simple Burger-Menu](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/NotAmazingBurgerMenu/)
 7. [Scroll Animation](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/Scroll%20Animation/)
 8. [Splitted Landing Page](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/SplitLP/)
+9. [Form Wavy](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/FormWave/)
