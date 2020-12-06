@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #a164df;
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.buttons .btn {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.buttons .btn:focus, .buttons .btn:active {
+  outline: 0;
+  border: 0;
+}
