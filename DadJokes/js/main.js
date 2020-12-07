@@ -1,6 +1,6 @@
 'use strict';
 
-const jokes = ['Why do bees have sticky hair? Because they use honey combs!',
+/*const jokes = ['Why do bees have sticky hair? Because they use honey combs!',
 'I was wondering why the frisbee was getting bigger, then it hit me.',
 'It was raining cats and dogs the other day. I almost stepped in a poodle.',
 'How come a man driving a train got struck by lightning? He was a good conductor.',
@@ -18,9 +18,29 @@ const jokeBtn = document.getElementById('joke-btn');
 
 
 jokeBtn.addEventListener('click', () => {
-   let jokesRand = getRandomInt(jokes.length);
-   jokeBlock.innerText = jokes[jokesRand];
+  let jokesRand = getRandomInt(jokes.length);
+  jokeBlock.innerText = jokes[jokesRand];
 })
 function getRandomInt (num) {
    return Math.floor(Math.random() * num)
+}
+*/
+const jokeEl = document.getElementById('joke');
+const jokeBtn = document.getElementById('joke-btn');
+
+jokeBtn.addEventListener('click', generateJoke)
+generateJoke()
+// USING ASYNC/AWAIT
+async function generateJoke() {
+  const config = {
+    headers: {
+      Accept: 'application/json',
+    },
+  }
+
+  const res = await fetch('https://icanhazdadjoke.com', config)
+
+  const data = await res.json()
+
+  jokeEl.innerHTML = data.joke
 }
