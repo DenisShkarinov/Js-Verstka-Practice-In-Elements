@@ -13,4 +13,3 @@
 11. [Dad Jokes](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/DadJokes/)
 12. [Primitive Form](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/form/)
 13. [Work with Keyboard](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/event-keycodes/)
-14. [Collapsing Questions](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/FaqCollapse/)
