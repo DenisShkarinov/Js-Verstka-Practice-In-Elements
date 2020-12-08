@@ -12,3 +12,4 @@
 10. [Sound Board](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/SoundBoard/)
 10. [Dad Jokes](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/DadJokes/)
 11. [Primitive Form](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/form/)
+12. [Work with Keyboard](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/event-keycodes/)
