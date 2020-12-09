@@ -14,4 +14,4 @@
 12. [Primitive Form](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/form/)
 13. [Work with Keyboard](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/event-keycodes/)
 14. [Collapsing Questions](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/FaqCollapse/)
-15. [Collapsing Questions](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/IncrementingCounter/)
+15. [Incrementing Counter](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/IncrementingCounter/)
