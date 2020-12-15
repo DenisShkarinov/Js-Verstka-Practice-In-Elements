@@ -52,6 +52,7 @@ body {
    }
    .timer-block {
       display: flex;
+      flex-flow: row wrap;
       justify-content: center;
       align-items: center;
       margin-top: 5em;
@@ -60,9 +61,10 @@ body {
          position: relative;
          flex-basis: 20%;
          max-width: 150px;
+         min-width: 100px;
          height: 150px;
          text-align: center;
-         margin-right: 1.5em;
+         margin: 1.5em;
          
          .timer-box__content {
             position: relative;
