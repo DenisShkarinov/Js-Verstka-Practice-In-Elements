@@ -57,6 +57,10 @@ body img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -71,9 +75,10 @@ body img {
   -ms-flex-preferred-size: 20%;
       flex-basis: 20%;
   max-width: 150px;
+  min-width: 100px;
   height: 150px;
   text-align: center;
-  margin-right: 1.5em;
+  margin: 1.5em;
 }
 
 .container .timer-block .timer-box .timer-box__content {
