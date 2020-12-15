@@ -16,3 +16,4 @@
 14. [Collapsing Questions](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/FaqCollapse/)
 15. [Incrementing Counter](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/IncrementingCounter/)
 16. [Hide And Search Widget](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/HidenSearchWidget/)
+17. [CountDown Timer](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/CountdownTimer/)
