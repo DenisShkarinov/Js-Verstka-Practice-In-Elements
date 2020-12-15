@@ -4,8 +4,14 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+}
+
+::-moz-selection {
+  background-color: #8486a9;
+}
+
+::selection {
+  background-color: #fb6087;
 }
 
 :active {
@@ -57,6 +63,7 @@ body img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 5em;
 }
 
 .container .timer-block .timer-box {
@@ -79,6 +86,15 @@ body img {
   -webkit-box-shadow: 0 10px 3px #1e1f29;
           box-shadow: 0 10px 3px #1e1f29;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container .timer-block .timer-box .timer-box__content:before {
@@ -107,6 +123,11 @@ body img {
   border-radius: 50%;
 }
 
+.container .timer-block .timer-box .timer-box__content h2 {
+  color: #fb6087;
+  font-size: 80px;
+}
+
 .container .timer-block .timer-box h3 {
   position: absolute;
   bottom: -2.5em;
@@ -116,6 +137,20 @@ body img {
   color: #8486a9;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.container .timer-block .timer-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+  margin: auto;
+  width: calc(100% - 10px);
+  height: 1px;
+  background-color: #1e1f29;
+  z-index: 1;
+  opacity: 0.3;
 }
 
 .container .timer-footer {
@@ -146,8 +181,12 @@ body img {
 .container .timer-footer ul li a {
   color: #8486a9;
   font-size: 26px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .container .timer-footer ul li a:hover {
   color: #fb6087;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
