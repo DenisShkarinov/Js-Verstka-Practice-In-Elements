@@ -4,7 +4,7 @@
 2. [Blury Loading](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/BluryLoading/)
 3. [Expanding Cards](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/Expanding%20cards/)
 4. [Progress Steps](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/ProgressSteps/)
-5. [Timer Countdown](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/TimerCountdown/)
+5. [Beautiful Countdown Timer to New Year](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/CountdownTimer/)
 6. [Simple Burger-Menu](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/NotAmazingBurgerMenu/)
 7. [Scroll Animation](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/Scroll%20Animation/)
 8. [Splitted Landing Page](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/SplitLP/)
@@ -16,4 +16,3 @@
 14. [Collapsing Questions](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/FaqCollapse/)
 15. [Incrementing Counter](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/IncrementingCounter/)
 16. [Hide And Search Widget](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/HidenSearchWidget/)
-17. [CountDown Timer](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/CountdownTimer/)
