@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
       }
       if (minutes == 0) {
          hours--;
-         minutes == 60
+         minutes = 60
       }
       if (hours == 0) {
          daysLeft--;
