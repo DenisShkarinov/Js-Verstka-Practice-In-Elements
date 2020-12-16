@@ -154,3 +154,20 @@ body {
       }
    }
 }
+
+@media only screen and (min-width: 340px) and (max-width: 640px) {
+   .container {
+      .timer-header {
+         padding-top: 2.5em;
+      }
+      .timer-block {
+         margin-top: 0;
+         .timer-box {
+            height: 100px;
+            .timer-box__content h2 {
+               font-size: 50px;
+            }
+         }
+      }
+   }
+}

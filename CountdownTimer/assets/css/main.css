@@ -195,3 +195,18 @@ body img {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
+
+@media only screen and (min-width: 340px) and (max-width: 640px) {
+  .container .timer-header {
+    padding-top: 2.5em;
+  }
+  .container .timer-block {
+    margin-top: 0;
+  }
+  .container .timer-block .timer-box {
+    height: 100px;
+  }
+  .container .timer-block .timer-box .timer-box__content h2 {
+    font-size: 50px;
+  }
+}
