@@ -50,6 +50,7 @@ body img {
 .container .timer-header h2 {
   color: #ffffff;
   letter-spacing: 8px;
+  line-height: 1.5em;
   text-transform: uppercase;
 }
 
@@ -194,6 +195,10 @@ body img {
   color: #fb6087;
   -webkit-transition: all .3s;
   transition: all .3s;
+}
+
+.container .timer-footer ul li:last-child {
+  margin-right: 0;
 }
 
 @media only screen and (min-width: 340px) and (max-width: 640px) {
