@@ -9,30 +9,30 @@ let days = Math.round((dateMs-dateNowMs)/(1000*60*60*24)),
    minutes = 60 - dateNow.getMinutes(),
    seconds = 60 - dateNow.getSeconds();
 
-(function() {
-   let daysEl = document.getElementById('days');
-   let hoursEl = document.getElementById('hours');
-   let minEl = document.getElementById('minutes');
-   let secEl = document.getElementById('seconds');
+
+let daysEl = document.getElementById('days');
+let hoursEl = document.getElementById('hours');
+let minEl = document.getElementById('minutes');
+let secEl = document.getElementById('seconds');
+
+let timer = setInterval(function() {
+   secEl.innerHTML = seconds + '<p>seconds</p>';
+   minEl.innerHTML = minutes + '<p>minutes</p>';
+   hoursEl.innerHTML = hours + '<p>hours</p>';
+   daysEl.innerHTML = days + '<p>days</p>';
+   --seconds;
+   if (seconds == 0) {
+      seconds = 60;
+      --minutes;
+   }
+   if (minutes == 0) {
+      minutes=60;
+      --hours;
+   }
+   if (hours == 0) {
+      hours = 24;
+      --days;
+   }
    
-   let timer = setInterval(function() {
-      secEl.innerHTML = seconds + '<p>seconds</p>';
-      minEl.innerHTML = minutes + '<p>minutes</p>';
-      hoursEl.innerHTML = hours + '<p>hours</p>';
-      daysEl.innerHTML = days + '<p>days</p>';
-      --seconds;
-      if (seconds == 0) {
-         seconds = 60;
-         --minutes;
-      }
-      if (minutes == 0) {
-         minutes=60;
-         --hours;
-      }
-      if (hours == 0) {
-         hours = 24;
-         --days;
-      }
-      
-   }, 1000)
-})();
+}, 1000)
+timer()
