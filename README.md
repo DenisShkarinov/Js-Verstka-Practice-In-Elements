@@ -17,3 +17,4 @@
 15. [Incrementing Counter](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/IncrementingCounter/)
 16. [Hide And Search Widget](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/HidenSearchWidget/)
 17. [Drag and Drop](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/Drag'n%20Drop/)
+18. [Rippler Button Effect](https://denisshkarinov.github.io/Js-Verstka-Practice-In-Elements/RipplerBtnEffect/)
