@@ -4,26 +4,24 @@ const container = document.querySelector('.container');
 let selectedTag;
 const form = document.forms.todo;
 const input = form.elements.task;
+const deleteBtn = document.querySelectorAll('.delete');
+const ol = document.createElement('ol');
+ol.type = "I"
+ol.classList.add('todo-list');
+container.append(ol);
 
 function toggleTags(tag) {
-   
    if (selectedTag) {
       selectedTag.classList.remove('active')
    }
    selectedTag = tag;
    selectedTag.classList.add('active')
 }
-function creatingToDo() {
-   const ul = document.querySelector('.todo-list');
-   const li = document.createElement('li');
-   const checkbox = document.createElement('input');
-   checkbox.setAttribute('type', 'checkbox')
-   li.innerHTML = `<span>${checkbox}</span><span>${input.value}</span> <button class="delete">Delete</button>`
-   ul.append(li)
-   console.log(li)
-}
-function deleteItem() {
 
+function creatingToDo() {
+   const li = document.createElement('li');
+   li.insertAdjacentHTML('beforeend', `<span>${input.value}</span> <button class="delete">Delete</button>`) 
+   ol.append(li)
 }
 
 container.addEventListener('click', (event) => {
@@ -37,3 +35,10 @@ form.addEventListener('submit', (event) => {
    event.preventDefault()
    creatingToDo()
 })
+
+for (let button of deleteBtn) {
+   deleteBtn.addEventListener('click', (e) => {
+      let target = e.target;
+      alert(button)
+   })
+}

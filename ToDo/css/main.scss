@@ -89,3 +89,29 @@ body {
       }
    }
 }
+.todo-list {
+   display: flex;
+   flex-flow: column;
+   justify-content: flex-start;
+   align-items: center;
+   width: 78%;
+   
+   li {
+      padding-bottom: 5px;
+      border-bottom: 1px solid #333;
+      margin: 1em 0;
+      width: 100%;
+
+      span {
+         margin-left: 10px;
+      }
+      .delete {
+         float: right;
+         margin-left: 1em;
+         padding: 5px 10px;
+      }
+      &::marker {
+         color: #777777;
+      }
+   }
+}
