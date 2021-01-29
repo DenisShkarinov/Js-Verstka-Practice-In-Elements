@@ -3,6 +3,8 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 body {
@@ -22,19 +24,10 @@ body {
 .container {
   padding: 1em 1em 0 1em;
   background-color: #e6b175;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .container .empty {
+  display: inline-block;
   border: 3px solid #000;
   width: 150px;
   height: 150px;
@@ -52,4 +45,17 @@ body {
 
 .container .empty:last-child {
   margin-right: 0;
+}
+
+.container .hold {
+  border: 3px solid #fff;
+}
+
+.container .hovered {
+  background-color: #bbaa97;
+  border-style: dashed;
+}
+
+.container .invisible {
+  display: none;
 }

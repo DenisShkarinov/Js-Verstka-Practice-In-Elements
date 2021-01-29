@@ -2,6 +2,7 @@
    box-sizing: border-box;
    padding: 0;
    margin: 0;
+   transition: 0.3s;
 }
 
 body {
@@ -15,10 +16,8 @@ body {
 .container {
    padding: 1em 1em 0 1em;
    background-color: #e6b175;
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
    .empty {
+      display: inline-block;
       border: 3px solid #000;
       width: 150px;
       height: 150px;
@@ -37,4 +36,16 @@ body {
          margin-right: 0;
       }
    }
+   .hold {
+      border: 3px solid #fff;
+   }
+   
+   .hovered {
+      background-color: #bbaa97;
+      border-style: dashed;
+   }
+   .invisible {
+      display: none;
+   }
 }
+
